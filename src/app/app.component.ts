@@ -34,4 +34,11 @@ export class AppComponent {
       }
     }
   }
+
+  addPost() {
+    this.posts.unshift({
+      title: 'Angular',
+      text: 'Angular 8'
+    })
+  }
 }

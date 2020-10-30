@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "pipes-minin-angular",
+    "public": "dist\\Angular-pipes",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
